@@ -1,0 +1,20 @@
+{
+  "name": "mercadolibre",
+  "version": "1.0.0",
+  "description": "Query Endpoints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm index.js"
+  },
+  "keywords": [
+    "mercado"
+  ],
+  "author": "Manuel Castro",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.3"
+  }
+}
